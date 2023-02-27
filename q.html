@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="q.css">
+</head>
+<body>
+    <center>
+<img src="photo/blblbl.png" class="photo" alt="">
+<div class="div"><h3>Щоб отримати дозвіл на редакцію, заповніть невелику форму реєстрації.</h3>
+        <label>Your name:</label>
+     <input type="text" ng-model="name" placeholder="Напишіть своє ім'я">
+</div>
+
+<form class="form">
+    <h3>Welcome, {{name}}!</h3>
+    <div class="mb-3">
+        <label for="exampleInputEmail1">Введіть ваше ім'я та фамілію</label>
+      <label for="exampleInputEmail1" class="form-label">Введіть вашу електронну адресу</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">Ми не поширюватимемо вашу адрессу.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Введіть вашу дату народження</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <button type="submit" class="btn btn-primary">Надіслати</button>
+  </form>
+
+  <img src="photo/line.png" class="line" alt="">
+
+
+    <!--<hr>
+    
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Ваша адреса електронної пошти:</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"><br>
+          <div id="emailHelp" class="form-text">Ця пошта не буде поширюватися.</div>
+        </div><br>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Ваша дата народження:</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div><br>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        </div>
+        <button type="submit" class="btn btn-primary">Надіслати</button>
+      </form>
+      <p>Ми відповімо вам у скорому часі.</p>
+</center> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</body>
+</html>

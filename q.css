@@ -1,0 +1,22 @@
+body{
+    margin: 0%;
+    background-color: black;
+}
+.photo{
+    width: 600px;
+    height: 800px;
+}
+.div{
+    font-size: 20px;
+    width: 400px;
+    transform: translate(0px, -750px);
+}
+.form{
+    transform: translate(0px, -600px);
+    font-size: 20px;
+}
+.line{
+    width: 500px;
+    height: 90px;
+    transform: translate(0px, -900px);
+}
