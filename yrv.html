@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Науковці різних часів</title>
+    <link rel="stylesheet" href="yrv.css">
+    <script src="yrv.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https:/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script>
+    $( function() {
+      $( "#menu" ).menu();
+    } );
+    </script>
+  <script>
+    $( function() {
+      $( "#dialog, #d2" ).dialog({
+        autoOpen: false
+      });
+      $("#btn1, #btn2").button().click(function(e){
+        var target = this.id == "btn1" ? "#dialog" : "#d2";
+        if ($(target).dialog("isOpen")) {
+            $(target).dialog("close")
+        } else {
+            $(target).dialog("open")
+        }
+      })
+    } );
+    </script>
+
+</head>
+<body>
+    <header>
+        <div class="text0"><h2>⠀⠀⠀Науковці різних часів</h2></div>
+        <div class="vertical-menu">
+            <ul id="menu">
+                <li><div>Навігація</div><ul>
+              <li><div>Алгебра</div></a>
+                <ul><li><a href="#algebra"><div>Початок</div></a></li>
+                <li><a href='#arhimed'><div>Архімед</div></a></li>
+                <li><a href="#muhhamad"><div>Ал-Хорезмі</div></a></li>
+                <li><a href="#rene"><div>Рене Декарт</div></a></li>
+                </ul></li>
+              <li><div>Геометрія</div><ul>
+                <li><a href="#geometry-ucheni"><div>Початок</div></a></li>
+                <li><a href="#geometry1"><div>Евклід</div></a></li>
+                <li><a href="#geometry2"><div>П'єр Ферма</div></a></li>
+                <li><a href="#geometry3"><div>Фібоначчі</div></a></li>
+              </ul></li>
+              <li><div>Фізика</div><ul>
+                <li><a href="#physics-ucheni"><div>Початок</div></a></li>
+                <li><a href="#physics1"><div>Ісаак Ньютон</div></a></li>
+                <li><a href="#physics2"><div>Ґотфрід Вільгельм Лейбніц</div></a></li>
+                <li><a href="#physics3"><div>Блез Паскаль</div></a></li>
+                </li></ul>
+                  </div>
+        <img src="photo/white.png" class="photowhite" alt="">
+        <img src="photo/blue1.png" class="photoblue" alt="">
+        <img src="photo/line2.png" class="line" alt="">
+        <img src="photo/line2.png" class="line1" alt="">
+        <div class="warning">
+          ⠀⠀⠀⠀⠀⠀!Попередження!<br>Науковці погруповані за найпоширенішими та найважливішими вкладами у розвиток данних наук, адже майже усі науковці, які представлені на цьому сайті робили власний вклад у КОЖНУ галузь. 
+        </div>
+        <div class="warning-picture"><img width="120px" src="photo/finger.png" alt=""></div>
+
+        <!-- <br><br><br><br><br><br><br><br><br><br> -->
+    </header>
+    <div id="algebra"><p> </p></div>
+      <div class="text1"><center><p>Нaуковці з галузі наук: Алгебра</p></center></div>
+    <div class="right-page">
+      <img src="photo/right-page.png" width="600px" height="600px" alt="">
+
+    </div>
+      <div class="text2"><p>Алгебра — розділ математики, що вивчає математичні операції і відношення, та утворення, що базуються на алгебраїчних рівняннях і структурах. Вивчення властивостей композицій різного виду в XIX столітті привело до думки, що основне завдання алгебри — вивчення властивостей операцій незалежно від об'єктів, до яких вони застосовуються. З того часу алгебру стали розглядати як загальну науку про властивості та закони композиції операцій. У наші дні алгебра — одна з найважливіших частин математики, що має застосування як у суто теоретичних, так і в практичних галузях науки. <br> Алгебру почали вивчати ще далеко до нашої ери греки. Власне вони і заснували більшу частину теорем і властивостей, завдяки яким ми зараз виконуємо найпростіші алгебраїчні рівняння.</p></div>
+
+      <div class="algebra-ucheni" id="algebra-ucheni1">
+        <div class="text1" id="arhimed"><center><p>Архімед(287 до н.е.-212 до н.е.)</p></center></div>
+        <img class="allucheni1" src="photo/arhimed.jpg" alt="">
+        <img src="photo/Архімед.png" class="allblur1" alt=""> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <img class="border" src="photo/line2.png" alt="">
+
+      <div class="muhhamad" id="muhhamad"><center><p>Мухаммад ібн Муса Ал-Хорезмі(прибл. 783-850)</p></center></div>
+      <img src="photo/Al.png" class="allblur2" alt="">
+      <img class="allucheni2" src="photo/al.jpg" alt=""><br><br><br><br><br><br><br><br><br><br><br><br>
+      <img class="border" src="photo/line2.png" alt="">
+
+      <div class="rene" id="rene"><center><p>Рене Декарт(1596 - 1650)</p></center></div>
+      <img class="allucheni3" src="photo/renedekart.jpg" alt="">
+      <img src="photo/reneq.png" class="allblur3" alt=""><br><br><br><br><br><br><br><br><br>
+      <img class="border" src="photo/line2.png" alt=""></div>
+
+
+
+      <div class="geometry1"><div id="geometry" class="geometry"><p> </p></div>
+      <div class="text1"><center><p>Нaуковці з галузі наук: Геометрія</p></center></div>
+    <div class="right-page">
+      <img src="photo/right-page.png" width="600px" height="600px" alt="">
+      <br><br><br><br><br><br><br><br>
+      <div class="geometry-text"><p>Геометрія — розділ математики, наука про просторові форми, відношення і їхні узагальнення. Геометрія — одна з найдавніших наук. <br> Від початку вона була галуззю практичного знання, що розглядало довжини, площі, і об'єми. <br> Точка і пряма є основними геометричними фігурами на площині. Іншим об’єктом вивчення геометрії є багатогранники, це тривимірні фігури, утворені різними гранями, які, в свою чергу, є багатокутниками.
+      <br>
+      Іншими елементами вивчення геометрії є площини, лінії (лінія з нескінченними точками), промені (частина лінії, що простягається від однієї з її точок до нескінченності), кути (дуги, що утворюються з об’єднання двох прямих), криві (лінії, що змінюють напрямок у якійсь точці) та відрізки (частина лінії, обмежена двома точками, з початком та кінцем).</p></div></div>
+
+      <div class="geometry-ucheni" id="geometry-ucheni">
+        <div class="text1" id="geometry1"><center><p>Евклід(365-300 до. н. е.)</p></center></div>
+        <img src="photo/evklid.png" class="allblur4" alt="">
+        <img class="allucheni4" src="photo/evklid.jpg" alt=""><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <img class="border" src="photo/line2.png" alt="">
+      
+        <div class="pierre" id="geometry2"><center><p>П'єр Ферма(1601-1665)</p></center></div>
+        <img class="allucheni5" src="photo/Pierre.jpg" alt="">
+        <img src="photo/ferma.png" class="allblur5" alt=""><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <img class="border" src="photo/line2.png" alt="">
+
+        <div class="fibonachi" id="geometry3"><center><p>Леонардо Пізано(Фібоначчі)(1170 — близько 1250)</p></center></div>
+        <img src="photo/leonardo.png" class="allblur6" alt="">
+        <img class="allucheni6" src="photo/Fibonacci2.jpg" alt=""><br><br><br><br><br><br><br><br><br><br><br><br>
+        <img class="border" src="photo/line2.png" alt="">
+      </div></div>
+
+      <div class="physics2"><div id="physics" class="physics"><p> </p></div>
+      <div class="text1"><center><p>Нaуковці з галузі: Фізика</p></center></div>
+    <div class="right-page">
+      <img src="photo/right-page.png" width="600px" height="600px" alt="">
+      <br><br><br><br><br><br><br><br>
+      <div class="physics-text"><p>Фізика — природнича наука, яка досліджує загальні властивості матерії та явищ у ній, а також виявляє загальні закони, які керують цими явищами. Це наука про закономірності природи в широкому сенсі цього слова. Фізики вивчають поведінку та властивості матерії в широких межах її проявів, від субмікроскопічних елементарних частинок, з яких побудоване все матеріальне, до поведінки всього Всесвіту як єдиної системи. <br>
+      Фізика - це наука природознавства, яка включає вивчення матерії, її рух і поведінку в просторі і часі. Головна мета якої - зрозуміти, як влаштований Всесвіт. <br>
+      Фізика - це найстаріша академічна дисципліна, а найдавнішим її підрозділом є астрономія. Фізику також вважають фундаментальною наукою, оскільки вона представляє предмет вивчення всіх галузей природознавства, таких як хімія, астрономія, геологія, біологія та інших. </p></div></div>
+
+
+      <div class="physics-ucheni" id="physics-ucheni">
+        <div class="text1" id="physics1"><center><p>Ісаак Ньютон(1643-1727)</p></center></div>
+        <img class="allucheni7" src="photo/IsaacNewton.jpg" alt="">
+        <img src="photo/new.png" class="allblur7" alt=""><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <img class="border" src="photo/line2.png" alt="">
+      
+        <div class="christoph" id="physics2"><center><p>Ґотфрід Вільгельм Лейбніц(1646-1716)</p></center></div>
+        <img src="photo/gotfid.png" class="allblur8" alt="">
+        <img class="allucheni8" src="photo/Christoph.jpg" alt=""><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <img class="border" src="photo/line2.png" alt="">
+
+        <div class="pascal" id="physics3"><center><p>Блез Паскаль(1623-1662)</p></center></div>
+        <img class="allucheni9" src="photo/pascal.jpg" alt="">
+        <img src="photo/pascal.png" class="allblur9" alt=""><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <img class="border" src="photo/line2.png" alt=""></div></div>
+
+        <div id="dialog"><button class="btn"><a href="tel:+380689248158"><p>Cхвалення на редакцію<br>(дзінок)</p></a></button>
+        <button class="btn"><a href=""><p>Cхвалення на редакцію<br>(лист)</p></a></button></div>
+
+          <a href="q.html"><button class="button1"><p>Знайшли помилку? Заповніть форму реєстрації і ми вам напишемо.</p></button></a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</body>
+</html>

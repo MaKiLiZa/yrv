@@ -1,0 +1,243 @@
+*{
+    margin: 0%;
+    font-family: Courier, monospace;
+    text-decoration: none;
+}
+header{
+    background-color: rgb(196, 196, 255);
+}
+.photowhite{
+    width: 420px;
+    transform: translate(800px,80px)
+}
+.photoblue{
+    width: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(425px,180px)
+}
+.line{
+    width: 350px;
+    transform: translate(0px,-190px);
+}
+.line1{
+    width: 350px;
+    transform: translate(50px,300px);
+}
+.text0{
+    font-size: 20px;
+	position	: absolute;
+	top		: 0px;
+	left		: -15px;
+	width		: 100%;
+    transform: translate(30px, 10px);
+    background-color: rgb(164, 158, 255);
+    height: 90px;
+    width: 1555px;
+    padding-top: 15px;
+}
+.vertical-menu, #menu{
+    width: 200px;
+    font-size: 15px;
+    /*position: absolute;
+    top: 25px;
+    left: 270px;*/
+    
+transform: translate(600px, 25px);
+}
+.right-page{
+    transform: translate(900px, 80px);
+}
+.text1{
+    font-size: 40px;
+    transform: translate(0px, 40px);
+}
+.text2{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    width: 350px;
+    transform: translate(1020px, -480px);
+    font-size: 17px;
+}
+.algebra-ucheni{
+    background-color: rgb(196, 196, 255);
+    transform: translate(0px, -350px);
+}
+.allucheni1{
+    transform: translate(200px, 0px);
+    width: 350px;
+    border-radius: 5%;
+}
+.allblur1{
+    width: 550px;
+    height: 550px;
+    transform: translate(400px, 40px);
+}
+.border{
+    width: 100%;
+    height: 30px;
+    transform: translate(0px, -150px);
+}
+.allucheni2{
+    width: 380px;
+    border-radius: 5%;
+    transform: translate(300px, -50px);
+}
+.allblur2{
+    width: 550px;
+    height: 550px;
+    transform: translate(100px, -70px);
+}
+.muhhamad{
+    font-size: 40px;
+    transform: translate(0px, -100px);
+}
+.allblur3{
+    width: 550px;
+    height: 550px;
+    transform: translate(400px, -70px);
+}
+.allucheni3{
+    transform: translate(250px, -100px);
+    width: 400px;
+    border-radius: 5%;
+}
+.geometry-ucheni{
+    background-color: rgb(196, 196, 255);
+    transform: translate(00px, -500px);
+}
+.rene{
+    font-size: 40px;
+    transform: translate(0px, -120px);}
+
+.allucheni4{
+    width: 380px;
+    border-radius: 5%;
+    transform: translate(300px, 30px);
+}
+.allblur4{
+    width: 550px;
+    height: 550px;
+    transform: translate(150px, 60px);
+}
+.pierre{
+    font-size: 40px;
+    transform: translate(0px, -100px);
+}
+.allblur5{
+    width: 550px;
+    height: 550px;
+    transform: translate(400px, -70px);
+}
+.allucheni5{
+    transform: translate(250px, -100px);
+    width: 400px;
+    border-radius: 5%;
+}
+.fibonachi{
+    font-size: 40px;
+    transform: translate(0px, -100px);
+}
+.allucheni6{
+    width: 380px;
+    border-radius: 5%;
+    transform: translate(300px, -100px);
+}
+.allblur6{
+    width: 550px;
+    height: 550px;
+    transform: translate(200px, -20px);
+}
+/*.physics2{
+    transform: translate(-1800px, 0px);
+} */
+.physics2{
+    transform: translate(00px, -850px);
+}
+.physics-ucheni{
+    background-color: rgb(196, 196, 255);
+    transform: translate(00px, -500px);
+} 
+.geometry1{
+    transform: translate(0px, -350px);
+}
+.allucheni7{
+    transform: translate(250px, 80px);
+    width: 400px;
+    border-radius: 5%;
+}
+.allblur7{
+    width: 550px;
+    height: 550px;
+    transform: translate(400px, 50px);
+}
+.warning{
+    width: 300px;
+    transform: translate(880px, -400px);
+}
+.warning-picture{
+    transform: translate(950px, -380px);
+}
+.christoph{
+    font-size: 40px;
+    transform: translate(0px, -100px);
+}
+.allblur8{
+    width: 550px;
+    height: 550px;
+    transform: translate(200px, -20px);
+}
+.allucheni8{
+    width: 380px;
+    border-radius: 5%;
+    transform: translate(300px, -50px);
+}
+.pascal{
+    transform: translate(0px, -100px);
+    font-size: 40px;
+}
+.allblur9{
+    width: 550px;
+    height: 550px;
+    transform: translate(400px, -50px);
+}
+.allucheni9{
+    transform: translate(250px, -80px);
+    width: 400px;
+    border-radius: 5%;
+}
+.geometry-text{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    width: 350px;
+    transform: translate(125px, -700px);
+    font-size: 17px;
+}
+.physics-text{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    width: 350px;
+    transform: translate(125px, -690px);
+    font-size: 17px;
+}
+.button{
+    border-radius: 100%;
+    background-color: rgb(218, 218, 218);
+    border-color: rgb(161, 161, 161);
+    padding: 0,5px;
+    color: black;
+    width: 85px;
+    height: 85px;
+    /*position: fixed;
+    left : 1200px;
+    right : 0;*/
+}
+.button1{
+    border-radius: 100%;
+    background-color: rgb(218, 218, 218);
+    border-color: rgb(161, 161, 161);
+    padding: 0,5px;
+    color: black;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    transform: translate(625px, -1300px);
+}
